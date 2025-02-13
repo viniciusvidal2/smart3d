@@ -1,0 +1,152 @@
+
+<HTML>
+<BODY TOPMARGIN=4 BGCOLOR=#FFFFFF TEXT=#000000 VLINK=#000000 LINK=#000000 ALINK=#000000>
+<FONT FACE="Arial, Lucida, Helvetica">
+<A NAME="topicToolRecons"></A>
+
+<H2>Reconstruction Tool</H2>
+This tool is used to reconstruct and texturize a mesh using images.<P>
+
+<H2>Usage</H2>
+
+<OL>
+
+<LI>
+Press the reconstruction icon in the toolbar.
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="recons0.png"></CENTER>
+<BR>
+<BR>
+<BR>
+
+
+<LI>
+Check what you want to do.
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="recons02.png"> </CENTER>
+<BR>
+<BR>
+<BR>
+
+<LI>
+Fill the fields that are enabled.
+
+<LI>
+Press the "Gears" button if you want to change the configuration.
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="recons03.png"> </CENTER>
+<BR>
+<BR>
+<BR>
+
+<UL>
+
+<LI>
+<B>Sparse quality</B> - This is the quality level used to align the images. The greater the quality more RAM and VRAM will be used. This parameter is the main cause to reconstruction fails.
+
+<LI>
+<B>Dense quality</B> - This is the quality level used to create the point cloud. The greater the quality more RAM and VRAM will be used. This parameter is the main cause to reconstruction fails.
+
+<LI>
+<B>Mesher</B> - Define the mesh algorithm that will be used.
+<UL>
+<LI> Poisson - Create more smooth surfaces.
+<LI> Delaunay - Create more complete surfaces.
+</UL> 
+
+<LI>
+<B>Use GPU</B> - Define if the GPU is going to be used by the algorithm.
+
+<LI>
+<B>Use COLMAP</B> - Force the use of COLMAP algorithm to generate the mesh (instead of MeshRecon).
+
+<LI>
+<B>Bounding box type</B>
+<UL>
+<LI> 0 - All the elements in the image will be reconstructed.
+<LI> 1 - Just the elements that appear in all images will be reconstructed.
+</UL> 
+
+<LI>
+<B>Level of details</B> - The greater the level of details more RAM and VRAM will be used. This parameter is the main cause to reconstruction fails, usually you do not have sufficient VRAM.
+
+<LI>
+<B>Disable GPU memory check</B> - Force MeshRecon to use the level of details chosen, regardless of the available VRAM.
+
+<LI>
+<B>Data Term</B> - Gmi or Area. Area will create more texture files.
+
+<LI>
+<B>Outlier removal</B> - Used to remove pedestrians and other moving objects.
+
+<LI>
+<B>Geometric visibility test</B> - A collision test used to place the texture in the right place.
+
+<LI>
+<B>Global seam leveling</B> - Used to balance the color difference through the mesh, if the images have a big difference in illumination could cause bad results.
+
+<LI>
+<B>Local seam leveling</B> - Used to balance the color difference locally, useful to minimize the divisions created in the texturization preocess.
+
+<LI>
+<B>Hole filling</B> - Close holes in the mesh.
+
+<LI>
+<B>Keep unseen faces</B> - Keep the faces that are not seen by any of the cameras.
+
+<LI>
+<B>Multi-band downscale</B> - Width of frequency bands.
+
+<LI>
+<B>Best score threshold</B> - 0.0 to disable filtering based on threshold to relative best score (0.0-1.0).
+
+<LI>
+<B>Angle hard threshold</B> - 0.0 to disable angle hard threshold filtering (0.0, 180.0).
+
+<LI>
+<B>Force visible by all vertices</B> - Triangle visibility is based on the union of vertices visiblity.
+
+<LI>
+<B>Visibility remapping method</B>
+<UL>
+<LI> Push - For each vertex of the input mesh, pull the visibilities from the closest vertex in the reconstruction.
+<LI> Pull - For each vertex of the reconstruction, push the visibilities to the closest triangle in the input mesh.
+<LI> Push-Pull - Combine results from Pull and Push results.
+</UL> 
+
+<LI>
+<B>Texture side</B> - Output texture size (1024, 2048, 4096, 8192, 16384).
+
+<LI>
+<B>Padding</B> - Texture edge padding size in pixel (0-100).
+
+<LI>
+<B>Downscale</B> - Texture downscale factor (1, 2, 4, 8).
+
+<LI>
+<B>Fill holes</B> - Fill holes in the texture.
+
+<LI>
+<B>Use UDIM</B> - Use UDIM UV mapping.
+
+</UL>
+
+<LI>
+To start processing:
+<UL>
+<LI> If you want to process only one dataset press "OK" to start the process or "Cancel" to abort.
+<LI> If you want to create a queue of reconstructions, press "Add" until you add all data you want to process, then press "Start".
+</UL> 
+
+</OL>
+
+</FONT></BODY></HTML>

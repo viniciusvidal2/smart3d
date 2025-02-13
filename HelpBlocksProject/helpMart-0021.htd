@@ -1,0 +1,124 @@
+<HTML>
+<BODY TOPMARGIN=4 BGCOLOR=#FFFFFF TEXT=#000000 VLINK=#000000 LINK=#000000 ALINK=#000000>
+<FONT FACE="Arial, Lucida, Helvetica">
+<A NAME="topicToolVolume"></A>
+
+<H2>Volume Tool</H2>
+This tool is used to calculate the volume of a mesh section defined by a polygon.<P>
+
+<H2>Usage</H2>
+
+<OL>
+
+<LI>
+Select a mesh in the mesh tree.
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="meshTreeSelection.png"></CENTER>
+<BR>
+<BR>
+<BR>
+
+<LI>
+Press the volume icon in the toolbar.
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="volume0.png"></CENTER>
+<BR>
+<BR>
+<BR>
+
+<LI>
+If the mesh is not watertight (closed), the program will generate another mesh usgin the points of the selected mesh. If you are not happy with the result, you could delete the generated mesh by selecting the "Poisson Reconstruction" item in the mesh tree and using the <A HREF="helpMart-0014.htm">delete tool</A>. To generate a better mesh to be used in the volume tool, you need to use the <A HREF="helpMart-0038.htm">poisson reconstruction</A> with a depth greater than 8.
+
+<LI>
+Click in the point where the selection plane will be placed using the right mouse button.
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="volume1.png"> </CENTER>
+<BR>
+<BR>
+<BR>
+
+<LI>
+You can modify the normal vector lenght using the keys "=" and "-". You can orient the normal by clicking with the left mouse button and moving the mouse, or by using the "X","Y" and "Z" to align the normal with the axis X, Y and Z. The central position of the selection plane can be modified by clicking with the right mouse button and moving the mouse. If you want the selection plane to be in the same position of the last time you used this tool, use "Ctrl + B".
+
+
+<LI>
+When te plane is in the position that you want just press "Enter".
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="volume2.png"> </CENTER>
+<BR>
+<BR>
+<BR>
+
+<LI>
+Now you can define the points of the selection polygon, to add a new point you need to click in the plane defined before using the right mouse button.
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="volume3.png"> </CENTER>
+<BR>
+<BR>
+<BR>
+
+<LI>
+To finish the polygon, just click in the first point to close the loop.
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="volume4.png"> </CENTER>
+<BR>
+<BR>
+<BR>
+
+<LI>
+The polygon will appear in the screen. You can modify its height by using the "=" and "-" keys. <FONT COLOR="red" FACE="Arial, Lucida Sans">If the line is inside the polygon, the cut will not be done correctly.</FONT>
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="volume5.png"> </CENTER>
+<BR>
+<BR>
+<BR>
+
+<LI>
+Press "Enter" and the volume will be calculated.
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="volume6.png"> </CENTER>
+<BR>
+<BR>
+<BR>
+
+</OL>
+
+<H2>Shortcuts</H2>
+
+<UL>
+<LI> Ctrl + V - Enable/disable the volume tool.
+<LI> Ctrl + Z - Remove the last added point in the polygon/Restart the polygon definition.
+<LI> Ctrl + B - Place the selection plane in the position defined in the last time the tool was used.
+<LI> "=" - Increase the polygon/normal vector height.
+<LI> "-" - Decrease the polygon/normal vector height.
+<LI> "X" - Alignt the normal vector to the X/-X axis.
+<LI> "Y" - Alignt the normal vector to the Y/-Y axis.
+<LI> "Z" - Alignt the normal vector to the Z/-Z axis.
+</UL>
+
+
+</FONT></BODY></HTML>

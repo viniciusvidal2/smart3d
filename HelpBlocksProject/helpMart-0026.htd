@@ -1,0 +1,47 @@
+<HTML>
+<BODY TOPMARGIN=4 BGCOLOR=#FFFFFF TEXT=#000000 VLINK=#000000 LINK=#000000 ALINK=#000000>
+<FONT FACE="Arial, Lucida, Helvetica">
+<A NAME="topicToolSnap"></A>
+
+<H2>Snapshot Tool</H2>
+This tool is used to take a snapshot of the visualization area.<P>
+
+<H2>Usage</H2>
+
+<OL>
+
+<LI>
+Press the snapshot icon in the toolbar or use the Menu "File > Take a snapshot...".
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="snap0.png"> <img align="center" src="snap2.png"></CENTER>
+<BR>
+<BR>
+<BR>
+
+
+<LI>
+Use the "Magnification" slider to define the final resolution. Define where the images will be saved and their base name (i.g. if you choose image.png, the images will be image_0.png, image_1.png, etc.). Check the transparent backgrounf if you don't want he black background. 
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="snap1.png"> </CENTER>
+<BR>
+<BR>
+<BR>
+
+<LI>
+The configuration window will only be opened in the first execution of the tool, if you want to open it again you need to access the tool using the Menu "File > Take a snapshot...". 
+
+</OL>
+
+<H2>Shortcuts</H2>
+
+<UL>
+<LI> Ctrl + S - Enable/disable the snapshot tool.
+</UL>
+
+</FONT></BODY></HTML>

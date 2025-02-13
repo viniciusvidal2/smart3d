@@ -1,0 +1,47 @@
+<HTML>
+<BODY TOPMARGIN=4 BGCOLOR=#FFFFFF TEXT=#000000 VLINK=#000000 LINK=#000000 ALINK=#000000>
+<FONT FACE="Arial, Lucida, Helvetica">
+<A NAME="topicMenuFastQuadricSimplification"></A>
+
+<H2>Fast quadric simplification...</H2>
+This menu item is used to reduce the number of faces in a mesh (does not work with textured meshes).<P>
+
+<H2>Usage</H2>
+
+<OL>
+
+<LI>
+Select a mesh in the mesh tree.
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="meshTreeSelection.png"></CENTER>
+<BR>
+<BR>
+<BR>
+
+
+<LI>
+Start the tool using the Menu "Filters > Fast quadric simplification...".
+
+<LI>
+Choose the percentage of reduction you want.
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="fastQuadricSimp0.png"> </CENTER>
+<BR>
+<BR>
+<BR>
+
+<LI>
+Press "OK" to start the simplification or "Cancel" to abort the operation.
+
+
+
+
+</OL>
+
+</FONT></BODY></HTML>

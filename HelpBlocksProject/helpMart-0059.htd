@@ -1,0 +1,69 @@
+<HTML>
+<BODY TOPMARGIN=4 BGCOLOR=#FFFFFF TEXT=#000000 VLINK=#000000 LINK=#000000 ALINK=#000000>
+<FONT FACE="Arial, Lucida, Helvetica">
+<A NAME="topicMenuTransform"></A>
+
+<H2>Transform...</H2>
+This menu item is used when you want to rotate/translate the mesh.<P>
+
+<H2>Usage</H2>
+
+<OL>
+
+<LI>
+Select a mesh in the mesh tree.
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="meshTreeSelection.png"></CENTER>
+<BR>
+<BR>
+<BR>
+
+<LI>
+Use the Menu "File > Transform...".
+
+<LI>
+Write the rotations and translations. <FONT COLOR="RED" FACE="Arial, Lucida Sans">The rotations follow the order X > Y > Z.</FONT>
+
+<LI>
+Press "OK" or "Enter" if you want to apply the rotations/translations, press "Align Z with tool" if you want to correct the Z alignment of the mesh or press "Cancel" to abort.
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="alignWithAxis0.png"> </CENTER>
+<BR>
+<BR>
+<BR>
+
+
+<LI>
+If you selected "Align Z with tool", you need to create a vector that points to the desired Z, select the first vector point. <FONT COLOR="RED" FACE="Arial, Lucida Sans"> It is easier if you use a building as reference.</FONT>
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="alignWithAxis1.png"> </CENTER>
+<BR>
+<BR>
+<BR>
+
+<LI>
+Select the last point.
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="alignWithAxis2.png"> </CENTER>
+<BR>
+<BR>
+<BR>
+
+<LI>
+The mesh will be rotated in a way that the vector is equal to the Z+ axis.
+
+</OL>
+
+</FONT></BODY></HTML>

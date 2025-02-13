@@ -1,0 +1,47 @@
+<HTML>
+<BODY TOPMARGIN=4 BGCOLOR=#FFFFFF TEXT=#000000 VLINK=#000000 LINK=#000000 ALINK=#000000>
+<FONT FACE="Arial, Lucida, Helvetica">
+<A NAME="topicMenuOpenCameras"></A>
+
+<H2>Open cameras...</H2>
+This menu item is used to open cameras.<P>
+
+<H2>Usage</H2>
+
+<OL>
+
+<LI>
+Select a mesh in the mesh tree.
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="meshTreeSelection.png"></CENTER>
+<BR>
+<BR>
+<BR>
+
+<LI>
+Use the Menu "File > Open cameras...".
+
+<LI>
+Select the .sfm/.nvm and press "Open".
+
+<LI>
+The cameras will be loaded.
+
+<LI>
+If the program tried to load the images that are inside the .sfm/.nvm file and it didn't find them, it will ask you to find the folder that have these files. Press "Yes" to find the folder that have the correct images, or "No" if you don't want to see the cameras.
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="open06.png"> </CENTER>
+<BR>
+<BR>
+<BR>
+
+
+</OL>
+
+</FONT></BODY></HTML>

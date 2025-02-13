@@ -1,0 +1,36 @@
+<HTML>
+<BODY TOPMARGIN=4 BGCOLOR=#FFFFFF TEXT=#000000 VLINK=#000000 LINK=#000000 ALINK=#000000>
+<FONT FACE="Arial, Lucida, Helvetica">
+<A NAME="topicToolWireRep"></A>
+
+<H2>Wireframe Representation Tool</H2>
+This tool is used to change the representation of all meshes to wireframe.<P>
+
+<H2>Usage</H2>
+
+<OL>
+
+<LI>
+Press the wireframe representation icon in the toolbar.
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="repWire0.png"></CENTER>
+<BR>
+<BR>
+<BR>
+
+<LI>
+All the meshes will be in the wireframe representation.
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="repWire1.png"> </CENTER>
+<BR>
+<BR>
+<BR>
+
+</OL>
+
+</FONT></BODY></HTML>

@@ -1,0 +1,31 @@
+<HTML>
+<BODY TOPMARGIN=4 BGCOLOR=#FFFFFF TEXT=#000000 VLINK=#000000 LINK=#000000 ALINK=#000000>
+<FONT FACE="Arial, Lucida, Helvetica">
+<A NAME="topicBasicChangeFocus"></A>
+
+<H2>Change the focus point</H2>
+This function is useful if you need to focus in some specific point.<P>
+
+<H2>Usage</H2>
+
+<OL>
+
+<LI>
+Align the point you want to focus with the center of the visualization area.
+
+<LI>
+Press "Ctrl + U". The program will shoot a ray trace and will change the focus to the first valid point.
+
+<LI>
+The focus will be changed if some valid point was found.
+
+</OL>
+
+<H2>Shortcuts</H2>
+
+<UL>
+<LI> Ctrl + U - Set the focus point.
+</UL>
+
+
+</FONT></BODY></HTML>

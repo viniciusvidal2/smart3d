@@ -1,0 +1,30 @@
+<HTML>
+<BODY TOPMARGIN=4 BGCOLOR=#FFFFFF TEXT=#000000 VLINK=#000000 LINK=#000000 ALINK=#000000>
+<FONT FACE="Arial, Lucida, Helvetica">
+<A NAME="topicBasicGoToCamera"></A>
+
+<H2>Go to camera view</H2>
+This function is useful when you want to see the camera view.<P>
+
+<H2>Usage</H2>
+
+<OL>
+
+<LI>
+Double click the camera name tree item, or double click the camera in the visualization area.
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="goToCamera0.png"><img align="center" src="goToCamera1.png"></CENTER>
+<BR>
+<BR>
+<BR>
+
+<LI>
+The focus will be in the camera.
+
+</OL>
+
+
+</FONT></BODY></HTML>

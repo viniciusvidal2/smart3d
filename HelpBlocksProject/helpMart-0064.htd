@@ -1,0 +1,69 @@
+<HTML>
+<BODY TOPMARGIN=4 BGCOLOR=#FFFFFF TEXT=#000000 VLINK=#000000 LINK=#000000 ALINK=#000000>
+<FONT FACE="Arial, Lucida, Helvetica">
+<A NAME="topicVRToolElevation"></A>
+
+<H2>Elevation Tool</H2>
+This tool is used to create an elevation map.<P>
+
+<H2>Usage</H2>
+
+<OL>
+
+
+<LI>
+Select the item "Tool elevation" in the VR menu.
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="vrElevation0.png"></CENTER>
+<BR>
+<BR>
+<BR>
+
+<LI>
+Will be generated an elevation map of the mesh.
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="vrElevation1.png"> </CENTER>
+<BR>
+<BR>
+<BR>
+
+
+<LI>
+To find the elevation of a point, press the trigger button and point the controller to the point you want to know the elevation, and release the trigger.
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="vrElevation2.png"> </CENTER>
+<BR>
+<BR>
+<BR>
+
+<LI>
+You can change the zero definition by pressing the grip button, then press the trigger button and point the controller to the point you want to define as zero, and release the trigger.
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="vrElevation3.png"> </CENTER>
+<BR>
+<BR>
+<BR>
+
+</OL>
+
+<H2>Shortcuts</H2>
+
+<UL>
+<LI> Trigger - Make a picking action.
+<LI> Grip button - Enable/disable the definition of zero.
+</UL>
+
+
+</FONT></BODY></HTML>

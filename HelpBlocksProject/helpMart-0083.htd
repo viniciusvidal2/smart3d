@@ -1,0 +1,79 @@
+<HTML>
+<BODY TOPMARGIN=4 BGCOLOR=#FFFFFF TEXT=#000000 VLINK=#000000 LINK=#000000 ALINK=#000000>
+<FONT FACE="Arial, Lucida, Helvetica">
+<A NAME="topicMenuSSD"></A>
+
+<H2>SSD...</H2>
+This menu item is used to reconstruct a mesh using SSD.<P>
+
+<H2>Usage</H2>
+
+<OL>
+
+<LI>
+Select a mesh in the mesh tree.
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="meshTreeSelection.png"></CENTER>
+<BR>
+<BR>
+<BR>
+
+
+<LI>
+Start the tool using the Menu "Reconstruction > SSD...".
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="SSD0.png"> </CENTER>
+<BR>
+<BR>
+<BR>
+
+<LI>
+Define the parameters, or press "Default" to load the default parameters.
+
+<UL>
+
+<LI>
+<B>Depth</B> - The bigger the depth the best the result, but you will consume more RAM and the time will increase significantly.
+
+<LI>
+<B>Boundary</B>
+<UL>
+<LI> 
+Free - No boundary constraints.
+
+<LI> 
+Dirichlet - Dirichlet boundary constraints (The surface will be closed).
+
+<LI> 
+Neumann - Neumann boundary constraints.
+
+</UL>
+
+</UL>
+
+<LI>
+Press "OK" to start the reconstruction or "Cancel" to abort the operation.
+
+<LI>
+When it finishes, the result will appear in the mesh tree as "SSD Reconstruction (Depth &lt the depth you chose &gt)".
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="SSD1.png"> </CENTER>
+<BR>
+<BR>
+<BR>
+
+
+
+
+</OL>
+
+</FONT></BODY></HTML>

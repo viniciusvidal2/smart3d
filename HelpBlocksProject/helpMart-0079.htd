@@ -1,0 +1,35 @@
+<HTML>
+<BODY TOPMARGIN=4 BGCOLOR=#FFFFFF TEXT=#000000 VLINK=#000000 LINK=#000000 ALINK=#000000>
+<FONT FACE="Arial, Lucida, Helvetica">
+<A NAME="topicExportGeoRegisteredPointCloud"></A>
+
+<H2>Export geo-registered point cloud...</H2>
+This menu item is used to export a geo-registered point cloud and the camera position and its respective GPS data.<P>
+
+<H2>Usage</H2>
+
+<OL>
+
+<LI>
+Select a valid mesh in the mesh tree. The mesh should contain cameras and these cameras should have images with GPS data.
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="meshTreeSelection.png"></CENTER>
+<BR>
+<BR>
+<BR>
+
+<LI>
+Use the Menu "File > Export geo-registered point cloud...".
+
+<LI>
+Select the local to save the file and the filname, press "Save".
+
+<LI>
+The point cloud will be saved as ".ply" and the camera file will be saved as a ".gps", the first line is a header and the second is the number of cameras in the file. The data will be organized as follow: the camera center position (X, Y and Z), its GPS data (latitude, longitude and altitude) followed by its ECEF position (X, Y and Z).
+
+</OL>
+
+</FONT></BODY></HTML>

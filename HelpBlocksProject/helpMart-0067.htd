@@ -1,0 +1,46 @@
+<HTML>
+<BODY TOPMARGIN=4 BGCOLOR=#FFFFFF TEXT=#000000 VLINK=#000000 LINK=#000000 ALINK=#000000>
+<FONT FACE="Arial, Lucida, Helvetica">
+<A NAME="topicVRToolClippingMode"></A>
+
+<H2>Clipping Mode</H2>
+This tool is used to clip the mesh.<P>
+
+<H2>Usage</H2>
+
+<OL>
+
+
+<LI>
+Select the item "Clipping Mode" in the VR menu.
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="vrClippingMode0.png"></CENTER>
+<BR>
+<BR>
+<BR>
+
+
+<LI>
+Hold the trigger and move the controller to clip the mesh. <FONT COLOR="red" FACE="Arial, Lucida Sans">This only affects the mesh visualization, there will be no data loss.</FONT>
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="vrClippingMode1.png">  &nbsp&nbsp&nbsp  <img align="center" src="vrClippingMode2.png"></CENTER>
+<BR>
+<BR>
+<BR>
+
+</OL>
+
+<H2>Shortcuts</H2>
+
+<UL>
+<LI> Trigger - Create the clipping plane.
+</UL>
+
+
+</FONT></BODY></HTML>

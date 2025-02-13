@@ -1,0 +1,78 @@
+<HTML>
+<BODY TOPMARGIN=4 BGCOLOR=#FFFFFF TEXT=#000000 VLINK=#000000 LINK=#000000 ALINK=#000000>
+<FONT FACE="Arial, Lucida, Helvetica">
+<A NAME="topicUpdateCamera"></A>
+
+<H2>Update camera...</H2>
+This menu item is used to adjust the camera posture and focal distance.<P>
+
+<H2>Usage</H2>
+
+<OL>
+
+<LI>
+Select a camera in the mesh tree.
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="updateCamera0.png"></CENTER>
+<BR>
+<BR>
+<BR>
+
+<LI>
+Use the Menu "File > Update camera..." to activate the tool.
+
+<LI>
+In the lower left corner will be displayed the step used to in the operations and the mode of operation (move camera or pitch/yaw).
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="updateCamera1.png"></CENTER>
+<BR>
+<BR>
+<BR>
+
+<LI>
+Use the keys to update the camera parameters:
+
+<p></p>
+<UL>
+<LI>
+<B>W</B> - Increase pitch/move camera up
+<LI>
+<B>A</B> - Increase yaw/move camera left
+<LI>
+<B>S</B> - Decrease pitch/move camera down
+<LI>
+<B>D</B> - Decrease yaw/move camera right
+</UL>
+<p></p>
+<UL>
+<LI>
+<B>Q</B> - Increase focal distance
+<LI>
+<B>E</B> - Decrease focal distance
+</UL>
+<p></p>
+<UL>
+<LI>
+<B>R</B> - Increase the step used to move the camera and change pitch/yaw
+<LI>
+<B>F</B> - Decrease the step used to move the camera and change pitch/yaw
+</UL>
+<p></p>
+<UL>
+<LI>
+<B>T</B> - Change between move the camera and pitch/yaw
+</UL>
+<p></p>
+
+<LI>
+Use the Menu "File > Update camera..." to deactivate the tool.
+
+</OL>
+
+</FONT></BODY></HTML>

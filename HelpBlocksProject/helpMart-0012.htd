@@ -1,0 +1,73 @@
+<HTML>
+<BODY TOPMARGIN=4 BGCOLOR=#FFFFFF TEXT=#000000 VLINK=#000000 LINK=#000000 ALINK=#000000>
+<FONT FACE="Arial, Lucida, Helvetica">
+<A NAME="topicToolOpen"></A>
+
+<H2>Open Tool</H2>
+This tool is used to open meshs.<P>
+
+<H2>Usage</H2>
+
+<OL>
+
+<LI>
+Press the open icon in the toolbar or use the Menu "File > Open...".
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="open02.png"><img align="center" src="open0.png"></CENTER>
+<BR>
+<BR>
+<BR>
+
+<LI>
+Select one or several meshs that are in some of the <A HREF="helpMart-0010.htm">supported files</A> extensions using the selection window.
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="open03.png"> </CENTER>
+<BR>
+<BR>
+<BR>
+
+
+<LI>
+The program will load all the meshes, if the mesh is a .obj with texture, the program will try to load a .sfm/.nvm with the same name as the mesh, if it didn't find, it will ask you to find this file. Press "Yes" to find the .sfm/.nvm file and load the cameras, or "No" if you don't want to see the cameras.
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="open04.png"> </CENTER>
+<BR>
+<BR>
+<BR>
+
+<LI>
+If the program tried to load the images that are inside the .sfm/.nvm file and it didn't find them, it will ask you to find the folder that have these files. Press "Yes" to find the folder that have the correct images, or "No" if you don't want to see the cameras.
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="open06.png"> </CENTER>
+<BR>
+<BR>
+<BR>
+
+<LI>
+The mesh will appear in the mesh tree.
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="open07.png"> </CENTER>
+<BR>
+<BR>
+<BR>
+
+
+
+</OL>
+
+</FONT></BODY></HTML>

@@ -1,0 +1,43 @@
+<HTML>
+<BODY TOPMARGIN=4 BGCOLOR=#FFFFFF TEXT=#000000 VLINK=#000000 LINK=#000000 ALINK=#000000>
+<FONT FACE="Arial, Lucida, Helvetica">
+<A NAME="topicBasicTexture"></A>
+
+<H2>Enalbe/Disable texture</H2>
+<OL>
+
+<LI>
+Select a mesh that have texture in the mesh tree.
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="meshTreeSelection.png"></CENTER>
+<BR>
+<BR>
+<BR>
+
+<LI>
+Press the check box in the texture tree item, or press "Ctrl + T".
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="texture0.png"></CENTER>
+<BR>
+<BR>
+<BR>
+
+<LI>
+The texture will be enabled/disabled. 
+
+</OL>
+
+<H2>Shortcuts</H2>
+
+<UL>
+<LI> Ctrl + T - Enable/disable the texture.
+</UL>
+
+
+</FONT></BODY></HTML>

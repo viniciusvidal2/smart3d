@@ -1,0 +1,47 @@
+<HTML>
+<BODY TOPMARGIN=4 BGCOLOR=#FFFFFF TEXT=#000000 VLINK=#000000 LINK=#000000 ALINK=#000000>
+<FONT FACE="Arial, Lucida, Helvetica">
+<A NAME="topicBasicViewUp"></A>
+
+<H2>Change the camera view up</H2>
+This function is useful when the camera is in the wrong orientation.<P>
+
+<H2>Usage</H2>
+
+<OL>
+
+<LI>
+<A HREF="helpMart-0051.htm">Go to the camera view</A>.
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="changeViewUp0.png"></CENTER>
+<BR>
+<BR>
+<BR>
+
+<LI>
+Press "Ctrl + V". The image will rotate 90º clock-wise each time, stop when the camera is align as you wish.
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="changeViewUp1.png"></CENTER>
+<BR>
+<BR>
+<BR>
+
+<LI>
+The correct view up will be saved.
+
+</OL>
+
+<H2>Shortcuts</H2>
+
+<UL>
+<LI> Ctrl + V - Rotate the image 90º clock-wise.
+</UL>
+
+
+</FONT></BODY></HTML>

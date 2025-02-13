@@ -1,0 +1,21 @@
+<HTML>
+<BODY TOPMARGIN=4 BGCOLOR=#FFFFFF TEXT=#000000 VLINK=#000000 LINK=#000000 ALINK=#000000>
+<FONT FACE="Arial, Lucida, Helvetica">
+<A NAME="topicMenuShowAxis"></A>
+
+<H2>Show axis</H2>
+This menu item is used to enable/disable the axis.<P>
+
+<H2>Usage</H2>
+
+<OL>
+
+<LI>
+Use the Menu "File > Show Axis".
+
+<LI>
+The axis will be enabled/disabled.
+
+</OL>
+
+</FONT></BODY></HTML>

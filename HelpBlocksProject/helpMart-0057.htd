@@ -1,0 +1,36 @@
+<HTML>
+<BODY TOPMARGIN=4 BGCOLOR=#FFFFFF TEXT=#000000 VLINK=#000000 LINK=#000000 ALINK=#000000>
+<FONT FACE="Arial, Lucida, Helvetica">
+<A NAME="topicMenuExportPoisson"></A>
+
+<H2>Export poisson...</H2>
+This menu item is used when you want to export a <A HREF="helpMart-0038.htm">poisson reconstruction</A>.<P>
+
+<H2>Usage</H2>
+
+<OL>
+
+<LI>
+Select a mesh in the mesh tree that have a poisson reconstruction item.
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="poisson02.png"> </CENTER>
+<BR>
+<BR>
+<BR>
+
+<LI>
+Use the Menu "File > Export poisson...".
+
+<LI>
+Select the local to save the file and the filname, press "Save".
+
+<LI>
+The poisson reconstruction will be saved in .ply.
+
+
+</OL>
+
+</FONT></BODY></HTML>

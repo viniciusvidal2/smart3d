@@ -1,0 +1,35 @@
+<HTML>
+<BODY TOPMARGIN=4 BGCOLOR=#FFFFFF TEXT=#000000 VLINK=#000000 LINK=#000000 ALINK=#000000>
+<FONT FACE="Arial, Lucida, Helvetica">
+<A NAME="topicExportCameras"></A>
+
+<H2>Export cameras...</H2>
+This menu item is used to export the cameras.<P>
+
+<H2>Usage</H2>
+
+<OL>
+
+<LI>
+Select a mesh in the mesh tree.
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="meshTreeSelection.png"></CENTER>
+<BR>
+<BR>
+<BR>
+
+<LI>
+Use the Menu "File > Export cameras...".
+
+<LI>
+Select the local to save the file, the filname and the file extension (.sfm or .nvm), press "Save".
+
+<LI>
+The cameras will be saved.
+
+</OL>
+
+</FONT></BODY></HTML>

@@ -1,0 +1,40 @@
+<HTML>
+<BODY TOPMARGIN=4 BGCOLOR=#FFFFFF TEXT=#000000 VLINK=#000000 LINK=#000000 ALINK=#000000>
+<FONT FACE="Arial, Lucida, Helvetica">
+<A NAME="topicMenuAlignMeshes"></A>
+
+<H2>Align meshes</H2>
+This menu item is used to perform an ICP operation.<P>
+
+<H2>Usage</H2>
+
+<OL>
+
+<LI>
+Select tow meshs in the mesh tree (The first selected will be the source and the second the target).
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="multipleMeshTreeSelection.png"></CENTER>
+<BR>
+<BR>
+<BR>
+
+
+<LI>
+Start the tool using the Menu "Filters > Align meshes".
+
+<LI>
+Select the landmarks points in the source mesh. When you finish press the enter key.
+
+<LI>
+Select the same number of landmarks points in the target mesh. When you finish press the enter key.
+
+<LI>
+The source mesh will be updated.
+
+
+</OL>
+
+</FONT></BODY></HTML>

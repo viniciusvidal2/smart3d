@@ -1,0 +1,64 @@
+
+<HTML>
+<BODY TOPMARGIN=4 BGCOLOR=#FFFFFF TEXT=#000000 VLINK=#000000 LINK=#000000 ALINK=#000000>
+<FONT FACE="Arial, Lucida, Helvetica">
+<A NAME="topicMenuICP"></A>
+
+<H2>ICP...</H2>
+This menu item is used to perform an ICP operation.<P>
+
+<H2>Usage</H2>
+
+<OL>
+
+<LI>
+Select tow meshs in the mesh tree (The first selected will be the source and the second the target).
+
+<BR>
+<BR>
+<BR>
+<CENTER><img align="center" src="multipleMeshTreeSelection.png"></CENTER>
+<BR>
+<BR>
+<BR>
+
+
+<LI>
+Start the tool using the Menu "Filters > ICP...".
+
+<LI>
+Define the parameters, or press "Default" to load the default parameters.
+
+<UL>
+
+<LI>
+<B>Maximum number of iterations</B> - Maximum number of ICP iterations.
+
+<LI>
+<B>Maximum number of landmarks</B> - Maximum number of points that will be used to compute the mean distance.
+
+<LI>
+<B>Maximum mean distance</B> - Maximum mean distance acceptable, if the mean distance is lower than this the ICP will stop.
+
+<LI>
+<B>Mean distance mode</B> - RMS or absolute value.
+
+<LI>
+<B>Check mean distance</B> - Check the mean distance every two iterations.
+
+<LI>
+<B>Start matching centroids</B> - Start ICP by matching the centroid of the meshes.
+
+</UL>
+
+
+<LI>
+Press "Start ICP" and wait the thread to stop, or press "Stop ICP" if you want to stop the thread.
+
+<LI>
+Press "Apply transform" if you want to apply the ICP tranform or "Cancel" to exit the ICP dialog.
+
+
+</OL>
+
+</FONT></BODY></HTML>
